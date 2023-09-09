@@ -1,0 +1,42 @@
+.App{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.herocard{
+    border: 2px dotted black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 18px;
+}
+.name{
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+}
+.universe{
+    color: darkblue;
+}
+.alterego{
+    color: darkred;
+}
+.occupation{
+    color: darkslategray;
+}
+.friends{
+    color: darkmagenta;
+}
+.superpowers{
+    color: darkgoldenrod;
+}
+.picture{
+    max-width: 95%;
+    border-radius: 15px;
+    border: 5px dotted orangered;
+}
+.info{
+    font-weight: 400;
+    font-size: 14px;
+}
